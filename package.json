@@ -7,7 +7,7 @@
   "description": "A tiny Drawer component for vue",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vue-simple-drawer src/index.js",
+    "build": "vue-cli-service build --target lib --name vue-simple-drawer --no-unsafe-inline --verbose  src/index.js",
     "test": "codecov --token=b0f70ed0-c1fb-4494-819d-cc0f45430698",
     "pages": "vue-cli-service build --dest docs",
     "lint": "vue-cli-service lint",
