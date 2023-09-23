@@ -35,7 +35,8 @@ npm install vue-simple-drawer --save
 </template>
 
 <script>
-import Drawer from "vue-simple-drawer"
+import Drawer from "vue-simple-drawer-csp"
+import from "vue-simple-drawer-csp/dist/vue-simple-drawer.css"
 export default {
   name: "app",
   data() {
